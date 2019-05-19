@@ -1,3 +1,6 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/ashworth-zach/pen/xeeaaj.
+#Times Table Circle
 
+https://codepen.io/ashworth-zach/pen/xeeaaj live demo
+
+Times table circle written from scratch as a challenge
  
