@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Times Table Circle</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+                 <div class="form-div">
+  <form id="inputs">
+    <label for="count">Points:</label>
+    <input id="count" type="range" name="count" min="0" max="750" step="1" value="60">
+    <label for="speed">Speed:</label>
+    <input id="speed" type="range" name="speed" min="0" max=".01" step=".000001" value=".001">
+    <label for="multiple">Multiple: </label>
+    <input id="multiple" type="number"  value="10" name="multiple">
+    <label for="outline">Outline?:</label>
+    <input id="outline" type="checkbox" name="outline" checked>
+    <label for="multiplemode">Still Mode (Enables Multiple):</label>
+    <input id="multiplemode" type="checkbox" name="multipleMode">
+  </form>
+</div>
+<p><span id="speeds"></span><span id="counts"></p>
+<canvas id="myCanvas" height="1000" width="1000"></canvas>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
